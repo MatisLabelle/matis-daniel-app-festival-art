@@ -1,1 +1,8 @@
-# matis-daniel-app-festival-art
+# Japan Art Media Festival
+
+Optimisation Web - Projet app d'un festival d'art nimérique
+
+## Équipe
+
+- Matis Labelle
+- Daniel Sébastien Dezemma
