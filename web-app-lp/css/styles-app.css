@@ -1,0 +1,68 @@
+:root {
+  --rouge: #ff5d73;
+  --gris-fonce: #494949;
+  --gris-pale: #7c7a7a;
+  --roboto: "roboto";
+  --bebas: "Bebas Neue";
+}
+
+.navbar {
+  background-color: white;
+  height: auto;
+}
+
+.logo {
+  width: 10%;
+}
+
+.navbar-toggler {
+  border: white;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: var(--roboto);
+}
+
+footer {
+  background-color: var(--gris-pale);
+  color: white;
+  font-size: small;
+}
+
+.logo-footer {
+  width: auto;
+}
+
+main {
+  position: relative;
+  top: 30%;
+}
+
+.search-bar {
+  border: 2px solid var(--rouge);
+}
+
+.search-bar:active {
+  box-shadow: 0 0 10px #ff5d73;
+  border: 2px solid var(--rouge);
+}
+.search-bar:focus {
+  box-shadow: 0 0 10px #ff5d73;
+  border: 2px solid var(--rouge);
+}
+
+.filters {
+  overflow: hidden;
+}
+
+.btn {
+  border: 2px solid var(--rouge);
+}
+
+.btn:hover {
+  background-color: var(--rouge);
+}
+.btn:focus {
+  background-color: var(--rouge);
+}
