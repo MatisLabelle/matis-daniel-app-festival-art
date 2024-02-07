@@ -1,0 +1,51 @@
+:root {
+    --rouge: #ff5d73;
+    --gris-fonce: #494949;
+    --gris-pale: #7c7a7a;
+    --roboto: "roboto";
+    --bebas: "Bebas Neue";
+  }
+
+
+
+.navbar {
+    background-color: white;
+    height: auto;
+  }
+
+  .logo {
+    width: 10%;
+  }
+
+  .navbar-toggler {
+    border: white;
+  }
+  
+  .navbar-brand {
+    font-weight: 700;
+    font-family: var(--roboto);
+  }
+  
+
+  footer {
+    background-color: var(--gris-pale);
+    color: var(--gris-fonce);
+    font-size: small;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .logo-footer {
+    width: auto;
+  }
+  
+  main {
+    position: relative;
+    top: 60px;
+    margin-bottom: 50px;
+    background-color: var(--gris-pale);
+    color: var(--gris-fonce);
+  }
+  
