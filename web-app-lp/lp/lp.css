@@ -6,7 +6,9 @@
     --bebas: "Bebas Neue";
   }
 
-
+.header {
+    margin-bottom: 20px;
+}
 
 .navbar {
     background-color: white;
@@ -42,10 +44,28 @@
   }
   
   main {
-    position: relative;
-    top: 60px;
-    margin-bottom: 50px;
-    background-color: var(--gris-pale);
+    padding-top: 50px;
+    background-color: white;
     color: var(--gris-fonce);
   }
+
+  .phone-frame {
+    width: 100%;
+    max-width: 400px;
+    height: calc(9 / 5 * 100px);
+    border: 1px  solid #ccc;
+    border-radius: 10%;
+    overflow: hidden;
+  }
   
+  .phone-frame iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+  @media (min-width: 768px) {
+    .hero-columns .col {
+        text-align: left;
+    }
+  }
