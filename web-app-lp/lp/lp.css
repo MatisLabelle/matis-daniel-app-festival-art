@@ -69,3 +69,17 @@
         text-align: left;
     }
   }
+
+  .btn {
+    border: 2px solid var(--rouge);
+    background-color: white;
+    color: var(--rouge);
+  }
+  
+  .btn:hover {
+    background-color: var(--rouge);
+    border: 2px solid var(--rouge);
+  }
+  .btn:focus {
+    background-color: var(--rouge);
+  }
