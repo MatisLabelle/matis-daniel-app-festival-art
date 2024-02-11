@@ -81,12 +81,13 @@
 
   .btn {
     border: 2px solid var(--rouge);
-    background-color: white;
-    color: var(--rouge);
+    background-color: var(--rouge);
+    color: white;
   }
   
   .btn:hover {
-    background-color: var(--rouge);
+    background-color:white;
+    color: var(--rouge);
     border: 2px solid var(--rouge);
   }
   .btn:focus {
