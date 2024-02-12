@@ -6,6 +6,3 @@ Optimisation Web - Projet app d'un festival d'art nimérique
 
 - Matis Labelle
 - Daniel Sébastien Dezemma
-
-
-test
